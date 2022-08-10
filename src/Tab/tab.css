@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+.items::-webkit-scrollbar {
+  width: 10px;
+}
+.border {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  left: 900px;
+  top: 21px;
+  border: none;
+  background-color: blue;
+  transition: 0.7s;
+}
+span {
+  margin: 10px 20px 0 20px;
+  transition: 0.7s;
+}
+span:hover {
+  color: blue !important;
+  cursor: pointer;
+}
+.content {
+  margin: 20px;
+  transition: 2s;
+}
